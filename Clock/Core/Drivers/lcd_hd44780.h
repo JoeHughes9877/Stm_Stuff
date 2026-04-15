@@ -12,3 +12,4 @@ void LCD_Clear(void);
 void LCD_Send_String(const char *str);
 void LCD_Write_Nibble(uint8_t nibble, uint8_t rs);
 void LCD_Send_Byte(uint8_t byte, uint8_t rs);
+void LCD_Set_Cursor(uint8_t row, uint8_t col);
